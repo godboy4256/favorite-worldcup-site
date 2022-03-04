@@ -1,11 +1,7 @@
-import WcProceedingContainer from "../../src/component/pages/worldcup/component/proceeding/wc_proceeding.container";
+import MainContainer from "../../src/component/pages/main/Main.container";
 
-const Main = () => {
-    return (
-        <div>
-            <WcProceedingContainer />
-        </div>
-    );
+export const Main = () => {
+    return <MainContainer />
 };
 
 export default Main;

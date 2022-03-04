@@ -1,6 +1,8 @@
-const SideMenu = () => {
+import { SideMenuStyles } from "./sidemenu.styles";
+
+const SideMenuPresenter = () => {
     return (
-        <ul>
+        <SideMenuStyles>
             <li>일상</li>
             <li>생물</li>
             <li>스포츠</li>
@@ -11,8 +13,8 @@ const SideMenu = () => {
             <li>인물</li>
             <li>음악</li>
             <li>기타</li>
-        </ul>
+        </SideMenuStyles>
     );
 };
 
-export default SideMenu;
+export default SideMenuPresenter;

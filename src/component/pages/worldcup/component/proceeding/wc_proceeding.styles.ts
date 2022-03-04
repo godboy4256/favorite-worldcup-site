@@ -1,15 +1,15 @@
 import styled from "@emotion/styled";
-import { SetStateAction } from "react";
 
 export const WcProceedingWrapper = styled.div`
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
     border:1px solid #ccc;
-    margin:  0 auto;
+    margin:50px auto;
 `
 
 export const WcProceedingTitle = styled.h3`
      text-align: center;
+     padding:20px 0;
 `
 
 export const WcProceedingMain = styled.div`
@@ -61,4 +61,11 @@ export const WcParticipantivBoard = styled.div`
     width: 100%;
     display: flex; 
     justify-content: center;
+`
+
+
+export const WcTitle = styled.ul`
+    text-align: center;
+    font-size: 80px;  
+    padding-top:50px;
 `

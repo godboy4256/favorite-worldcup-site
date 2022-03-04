@@ -1,10 +1,12 @@
+import { useRouter } from "next/router";
+import MainPresenter from "./Main.presenter";
 
 const MainContainer = () => {
-    return (
-        <div>
-
-        </div>
-    );
+    const router = useRouter()
+    const goWcAdd = () => {
+        router.push('/add')
+    }
+    return <MainPresenter goWcAdd={goWcAdd} />
 };
 
 export default MainContainer;

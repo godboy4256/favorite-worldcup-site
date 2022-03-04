@@ -5,5 +5,6 @@ export const LogoStyles = styled.div`
     color:tomato;
     & >span {
         color: #000;
+        padding-left: 10px;
     }
 `
